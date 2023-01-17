@@ -1,0 +1,30 @@
+{
+  "groups": [
+    {
+      "name": "prop.redis.lock.single",
+      "type": "cn.sancimi.starter.redislock.config.RedissonProperties",
+      "sourceType": "cn.sancimi.starter.redislock.config.RedissonProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "prop.redis.lock.single.host",
+      "type": "java.lang.String",
+      "description": "redis单点主机地址",
+      "sourceType": "cn.sancimi.starter.redislock.config.RedissonProperties"
+    },
+    {
+      "name": "prop.redis.lock.single.password",
+      "type": "java.lang.String",
+      "description": "redis单点主机密码",
+      "sourceType": "cn.sancimi.starter.redislock.config.RedissonProperties"
+    },
+    {
+      "name": "prop.redis.lock.single.port",
+      "type": "java.lang.String",
+      "description": "redis单点主机端口",
+      "sourceType": "cn.sancimi.starter.redislock.config.RedissonProperties"
+    }
+  ],
+  "hints": []
+}

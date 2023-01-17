@@ -1,0 +1,7 @@
+prop:
+  redis:
+    lock:
+      single:
+        host: localhost
+        password: 123456
+        port: 6379
